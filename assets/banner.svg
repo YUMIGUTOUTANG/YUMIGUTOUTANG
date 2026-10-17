@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="玉米骨头汤 · AI 应用 / Agent">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#241a12"/>
+      <stop offset="0.55" stop-color="#2c1f15"/>
+      <stop offset="1" stop-color="#191009"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="22%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#f6c453" stop-opacity="0.20"/>
+      <stop offset="0.55" stop-color="#f6c453" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#f6c453" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffedc2"/>
+      <stop offset="0.55" stop-color="#f6c453"/>
+      <stop offset="1" stop-color="#e89b2f"/>
+    </linearGradient>
+    <linearGradient id="bowlGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c453"/>
+      <stop offset="1" stop-color="#cf8c26"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="900" height="260" rx="18" fill="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="897" height="257" rx="17" fill="none" stroke="#f6c453" stroke-opacity="0.28" stroke-width="1.5"/>
+
+  <g fill="#f6c453" opacity="0.40">
+    <circle cx="690" cy="48" r="2"/>
+    <circle cx="742" cy="86" r="1.6"/>
+    <circle cx="806" cy="56" r="2.4"/>
+    <circle cx="768" cy="152" r="1.6"/>
+    <circle cx="834" cy="118" r="1.8"/>
+    <circle cx="650" cy="120" r="1.4"/>
+  </g>
+
+  <g font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif">
+    <text x="56" y="118" font-size="66" font-weight="900" fill="url(#titleGrad)" letter-spacing="2">玉米骨头汤</text>
+    <text x="60" y="154" font-size="14" fill="#f5ede0" fill-opacity="0.5" letter-spacing="7" font-family="ui-monospace,SFMono-Regular,Consolas,monospace">YUMIGUTOUTANG</text>
+    <text x="58" y="200" font-size="19" fill="#f5ede0" fill-opacity="0.9">AI 应用 / Agent 方向 · 小火慢炖，边实习边出锅 🐷</text>
+  </g>
+
+  <!-- 汤碗 · 蒸汽 · 玉米 -->
+  <g transform="translate(680,140)">
+    <g stroke="#f5ede0" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M8 -62 C -2 -76, 18 -88, 8 -104" stroke-opacity="0.45">
+        <animate attributeName="stroke-opacity" values="0.15;0.6;0.15" dur="4.2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M40 -68 C 30 -84, 50 -96, 40 -116" stroke-opacity="0.45">
+        <animate attributeName="stroke-opacity" values="0.6;0.15;0.6" dur="5.1s" repeatCount="indefinite"/>
+      </path>
+      <path d="M72 -60 C 64 -74, 82 -84, 74 -98" stroke-opacity="0.45">
+        <animate attributeName="stroke-opacity" values="0.3;0.65;0.3" dur="4.7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <rect x="-16" y="-46" width="128" height="13" rx="6.5" fill="#e89b2f"/>
+    <path d="M-12 -34 A 60 60 0 0 0 108 -34 Z" fill="url(#bowlGrad)"/>
+    <circle cx="48" cy="2" r="3" fill="#2c1f15" opacity="0.35"/>
+    <circle cx="24" cy="10" r="3" fill="#2c1f15" opacity="0.25"/>
+    <circle cx="72" cy="12" r="3" fill="#2c1f15" opacity="0.25"/>
+    <!-- 玉米 -->
+    <g transform="translate(116,36) rotate(24)">
+      <ellipse cx="0" cy="0" rx="13" ry="34" fill="#ffd166"/>
+      <g fill="#e89b2f">
+        <circle cx="-6" cy="-22" r="2"/><circle cx="2" cy="-24" r="2"/><circle cx="-4" cy="-14" r="2"/><circle cx="4" cy="-15" r="2"/><circle cx="-6" cy="-5" r="2"/><circle cx="2" cy="-6" r="2"/><circle cx="-4" cy="4" r="2"/><circle cx="4" cy="3" r="2"/><circle cx="-5" cy="13" r="2"/><circle cx="3" cy="12" r="2"/><circle cx="-4" cy="22" r="2"/><circle cx="4" cy="21" r="2"/>
+      </g>
+      <path d="M0 30 C -10 44, -8 56, -2 62" stroke="#7ba05b" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M0 30 C 8 42, 12 52, 10 60" stroke="#8fb46a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
